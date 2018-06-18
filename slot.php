@@ -2,8 +2,6 @@
   $reel = "";
   $message =  "";
 
-  session_start();
-
   if(isset($_POST['start'])){
     $reel_1 = rand(1,3);
     $reel_2 = rand(1,3);
